@@ -137,7 +137,9 @@ body {
     padding: 0 15px;
 }
 
-
+/********************************/
+/***** Testimonials Section *****/
+/********************************/
 
 .testimonials {
     background-color: #e5e7eb;
@@ -163,4 +165,42 @@ body {
     font-weight: bold;
     font-size: 24px;
     margin-right: 38px;
+}
+
+/*************************/
+/****** CTA Section ******/
+/*************************/
+
+.cta {
+    background-color: #fff;
+    padding: 104px 0;
+}
+
+.cta-container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.cta__signup {
+    display: flex;
+    padding: 48px 128px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 8px;
+    color: #fff;
+}
+.cta__signup-text p {
+    font-weight: 300;
+}
+
+.cta__signup-text h4{
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 6px;
+}
+
+.border {
+    border: 2px solid #fff;
 }
