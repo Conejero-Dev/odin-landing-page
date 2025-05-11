@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/************************/
+/**** Header Section ****/
+/************************/
+
+.header {
+    background-color: #1f2937;
+    padding: 18px 8px 128px 8px;
+}
+
+.header-container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.header__top-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 700;
+}
+
+.header__top-menu {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
+
+.header__top-menu a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.header__hero {
+    display: flex;
+    gap: 60px;
+}
+
+.header__hero-cta {
+    width: 100%;
+}
+
+.header__hero h2 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.header__hero p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 15px;
+}
+
+.btn-cta {
+    background-color: #3882f6;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 32px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 18px;
+}
