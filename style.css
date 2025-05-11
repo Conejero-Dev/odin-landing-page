@@ -86,3 +86,53 @@ body {
     font-weight: 700;
     font-size: 18px;
 }
+
+/************************/
+/***** Info Section *****/
+/************************/
+
+.info {
+    background-color: #fff;
+    padding: 44px 8px 128px 8px;
+}
+
+.info h3 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin-bottom: 44px;
+}
+
+.info-container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.info__images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.info__images-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.info__images-box-img {
+    width: 170px;
+    height: 170px;
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+}
+
+.info__images-box-text {
+    font-size: 18px;
+    color: #1f2937;
+    padding: 0 15px;
+}
