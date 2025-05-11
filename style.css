@@ -96,17 +96,17 @@ body {
     padding: 44px 8px 128px 8px;
 }
 
+.info-container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
 .info h3 {
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
     margin-bottom: 44px;
-}
-
-.info-container {
-    max-width: 900px;
-    margin: 0 auto;
-    text-align: center;
 }
 
 .info__images {
@@ -135,4 +135,32 @@ body {
     font-size: 18px;
     color: #1f2937;
     padding: 0 15px;
+}
+
+
+
+.testimonials {
+    background-color: #e5e7eb;
+    padding: 128px 0;
+}
+
+.testimonials p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+}
+
+.testimonials-container {
+    max-width: 790px;
+    margin: 0 auto;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    color: #1f2937;
+    font-weight: bold;
+    font-size: 24px;
+    margin-right: 38px;
 }
